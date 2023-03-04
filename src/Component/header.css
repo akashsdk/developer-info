@@ -8,8 +8,9 @@
 .headerBox{
     height: 70px;
     width: 98%;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    border: .1px solid rgb(208, 208, 208);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: .1px solid rgb(135, 135, 135);
+    box-shadow: rgba(251, 251, 251, 0.2) 0px 7px 29px 0px;
     display: flex;
 }
