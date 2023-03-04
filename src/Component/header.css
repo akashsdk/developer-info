@@ -7,7 +7,9 @@
 }
 .headerBox{
     height: 70px;
-    width: 95%;
+    width: 98%;
     border-radius: 10px;
+    border: .1px solid rgb(208, 208, 208);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
 }
