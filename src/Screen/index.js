@@ -33,12 +33,12 @@ export default function index() {
           <div style={{ flex: 1, flexDirection: "row" }}>
             <h1 style={{ color: "aqua" }}>me.!</h1>
             <p style={{color:'#fff'}}>A passionate Full Stack Software Developer,</p>
-            <p>
+            <p style={{color:'#fff'}}>
               {" "}
               having an experience of building Web and Mobile applications{" "}
             </p>
-            <p>with JavaScript / Reactjs / React Native / Nodejs and </p>
-            <p>other cool libraries and frameworks</p>
+            <p style={{color:'#fff'}}>with JavaScript / Reactjs / React Native / Nodejs and </p>
+            <p style={{color:'#fff'}}>other cool libraries and frameworks</p>
             <div className="HomeLayoutLine"></div>
             <div>
               <Button
