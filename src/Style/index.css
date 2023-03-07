@@ -86,3 +86,8 @@
     border-right-color: transparent;
   }
 }
+.indexH3Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

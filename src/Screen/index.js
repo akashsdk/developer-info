@@ -5,7 +5,7 @@ export default function index() {
   return (
     <div>
       <h1 className="indexH1">Welcome to Developer Info. & contact Page</h1>
-      <div>
+      <div className="indexH3Div">
         <h3 className="indexH3">hi! There, i'm Tasnim Shahriar Akash...</h3>
       </div>
       {/* <div>
@@ -17,6 +17,7 @@ export default function index() {
         </video>
         <h2 className="indexH2">sail</h2>
       </div> */}
+      <div>gg</div>
     </div>
   );
 }
