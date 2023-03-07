@@ -12,7 +12,7 @@ const layout = {
 
 /* eslint-disable no-template-curly-in-string */
 const validateMessages = {
-  required: "${label} is required!",
+  required: "${label} or nickname is required!",
   types: {
     email: "${label} is not a valid email!",
     number: "${label} is not a valid number!",
@@ -45,7 +45,7 @@ export default function contact() {
         >
           <Form.Item
             name={["user", "name"]}
-            label="Name:"
+            label="Name"
             rules={[
               {
                 required: true,
@@ -83,9 +83,9 @@ export default function contact() {
           </Form.Item>
           <Form.Item
             label="Phone No"
-            style={{marginLeft:'10px'}}
+            style={{marginLeft:'30px',width:'85%'}}
           >
-            <InputNumber />
+            <InputNumber style={{width:'95%'}}/>
           </Form.Item>
           </div>
           
