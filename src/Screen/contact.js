@@ -45,7 +45,7 @@ export default function contact() {
         >
           <Form.Item
             name={["user", "name"]}
-            label="Name"
+            label="Name:"
             rules={[
               {
                 required: true,
@@ -82,15 +82,8 @@ export default function contact() {
             <InputNumber />
           </Form.Item>
           <Form.Item
-            name={["user", "age"]}
-            label="Age"
-            rules={[
-              {
-                type: "number",
-                min: 0,
-                max: 99,
-              },
-            ]}
+            label="Phone No"
+            style={{marginLeft:'10px'}}
           >
             <InputNumber />
           </Form.Item>
