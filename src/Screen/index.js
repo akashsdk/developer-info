@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/index.css";
+import { Col, Row, Layout, Button, Radio } from "antd";
 
 export default function index() {
   return (
