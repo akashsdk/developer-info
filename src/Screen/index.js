@@ -32,13 +32,17 @@ export default function index() {
         <Layout className="HomeLayout">
           <div style={{ flex: 1, flexDirection: "row" }}>
             <h1 style={{ color: "aqua" }}>me.!</h1>
-            <p style={{color:'#fff'}}>A passionate Full Stack Software Developer,</p>
-            <p style={{color:'#fff'}}>
+            <p style={{ color: "#fff" }}>
+              A passionate Full Stack Software Developer,
+            </p>
+            <p style={{ color: "#fff" }}>
               {" "}
               having an experience of building Web and Mobile applications{" "}
             </p>
-            <p style={{color:'#fff'}}>with JavaScript / Reactjs / React Native / Nodejs and </p>
-            <p style={{color:'#fff'}}>other cool libraries and frameworks</p>
+            <p style={{ color: "#fff" }}>
+              with JavaScript / Reactjs / React Native / Nodejs and{" "}
+            </p>
+            <p style={{ color: "#fff" }}>other cool libraries and frameworks</p>
             <div className="HomeLayoutLine"></div>
             <div>
               <Button
@@ -95,7 +99,9 @@ export default function index() {
           </div> */}
           </div>
           <div style={{ flex: 1 }}>
-            <img src={img} className="HomeLayoutImg"></img>
+            <Button type="link" href="https://tasnim-shahriar-akash.web.app/">
+              <img src={img} className="HomeLayoutImg"></img>
+            </Button>
           </div>
         </Layout>
       </div>
