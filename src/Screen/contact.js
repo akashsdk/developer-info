@@ -1,7 +1,12 @@
 import React from 'react'
+import "../Style/contact.css";
 
 export default function contact() {
   return (
-    <div>contact</div>
+    <div className='contactBody'>
+      <p className='contactPTage'>easy to contact</p>
+      <div className='contactLine'/>
+      <div>hghh</div>
+    </div>
   )
 }
