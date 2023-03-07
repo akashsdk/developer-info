@@ -6,7 +6,7 @@ export default function index() {
     <div>
       <h1 className="indexH1">Welcome to Developer Info. & contact Page</h1>
       <div>
-      <h3 className="indexH3">hi! There, i'm Tasnim Shahriar Akash...</h3>
+        <h3 className="indexH3">hi! There, i'm Tasnim Shahriar Akash...</h3>
       </div>
       {/* <div>
         <video autoplay muted loop>
