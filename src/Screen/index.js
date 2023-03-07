@@ -27,7 +27,9 @@ export default function index() {
         </video>
         <h2 className="indexH2">sail</h2>
       </div> */}
+      
       <div>gg</div>
+
       <Layout className="HomeLayout">
         <div style={{ flex: 1, flexDirection: "row" }}>
           <h1 style={{ color: "aqua" }}>me.!</h1>
