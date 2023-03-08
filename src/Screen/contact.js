@@ -97,6 +97,7 @@ export default function contact() {
           <Form.Item name={["user", "introduction"]} label="Introduction">
             <Input.TextArea />
           </Form.Item>
+
           <Form.Item
             wrapperCol={{
               ...layout.wrapperCol,
@@ -107,6 +108,7 @@ export default function contact() {
               Submit
             </Button>
           </Form.Item>
+          
         </Form>
       </div>
       <div>hhhh</div>
