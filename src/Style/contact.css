@@ -33,7 +33,7 @@
 .contactLine {
   height: 1.5px;
   width: 10%;
-  background-color: #fff;
+  background-color: #a22e2e;
   margin-left: 45%;
   margin-top: -12px;
   margin-bottom: 20px;
@@ -41,6 +41,7 @@
 .contactFromDiv {
   display: flex;
   margin-left: 27%;
+  background-color: #fff;
 }
 .contactBoxTopDiv {
   height: 120px;
