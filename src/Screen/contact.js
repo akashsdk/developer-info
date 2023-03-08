@@ -1,6 +1,7 @@
-import React from "react";
+import React,{ useState } from "react";
 import "../Style/contact.css";
-import { Button, Form, Input, InputNumber } from "antd";
+import { Button, Form, Input, InputNumber, Progress } from "antd";
+import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 const layout = {
   labelCol: {
     span: 8,
@@ -27,13 +28,52 @@ const onFinish = (values) => {
   console.log(values);
 };
 
+
+
+
+// const [percent, setPercent] = useState.React(0);
+//   const increase = () => {
+//     setPercent((prevPercent) => {
+//       const newPercent = prevPercent + 10;
+//       if (newPercent > 100) {
+//         return 100;
+//       }
+//       return newPercent;
+//     });
+//   };
+//   const decline = () => {
+//     setPercent((prevPercent) => {
+//       const newPercent = prevPercent - 10;
+//       if (newPercent < 0) {
+//         return 0;
+//       }
+//       return newPercent;
+//     });
+//   };
+
 export default function contact() {
+
+  
+
   return (
     <div className="contactBody">
       <p className="contactPTage">easy to contact</p>
       <div className="contactLine" />
       <div className="contactBodyDiv">
-        <div className="contactBoxTopDiv"></div>
+        <div className="contactBoxTopDiv">
+        
+        {/* <Progress
+        type="circle"
+        percent={percent}
+        style={{
+          marginRight: 8,
+        }}
+      />
+      <Button.Group>
+        <Button onClick={decline} icon={<MinusOutlined />} />
+        <Button onClick={increase} icon={<PlusOutlined />} />
+      </Button.Group> */}
+        </div>
         <Form
           {...layout}
           name="nest-messages"
