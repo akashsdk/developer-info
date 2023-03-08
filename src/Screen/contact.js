@@ -1,7 +1,6 @@
 import React from "react";
 import "../Style/contact.css";
 import { Button, Form, Input, InputNumber,  } from "antd";
-import Time from 'react-datetime';
 const layout = {
   labelCol: {
     span: 8,
@@ -38,7 +37,6 @@ export default function contact() {
       <div className="contactLine" />
       <div className="contactBodyDiv">
         <div className="contactBoxTopDiv">
-          <Time/>
         </div>
         <Form
           {...layout}
