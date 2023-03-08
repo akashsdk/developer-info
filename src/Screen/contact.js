@@ -28,29 +28,6 @@ const onFinish = (values) => {
   console.log(values);
 };
 
-
-
-
-// const [percent, setPercent] = useState.React(0);
-//   const increase = () => {
-//     setPercent((prevPercent) => {
-//       const newPercent = prevPercent + 10;
-//       if (newPercent > 100) {
-//         return 100;
-//       }
-//       return newPercent;
-//     });
-//   };
-//   const decline = () => {
-//     setPercent((prevPercent) => {
-//       const newPercent = prevPercent - 10;
-//       if (newPercent < 0) {
-//         return 0;
-//       }
-//       return newPercent;
-//     });
-//   };
-
 export default function contact() {
 
   
@@ -61,18 +38,6 @@ export default function contact() {
       <div className="contactLine" />
       <div className="contactBodyDiv">
         <div className="contactBoxTopDiv">
-        
-        {/* <Progress
-        type="circle"
-        percent={percent}
-        style={{
-          marginRight: 8,
-        }}
-      />
-      <Button.Group>
-        <Button onClick={decline} icon={<MinusOutlined />} />
-        <Button onClick={increase} icon={<PlusOutlined />} />
-      </Button.Group> */}
         </div>
         <Form
           {...layout}
