@@ -40,7 +40,7 @@ export default function contact() {
           onFinish={onFinish}
           className="contactFrom"
           style={{
-            maxWidth: '80%',
+            maxWidth: "80%",
           }}
           validateMessages={validateMessages}
         >
@@ -67,29 +67,27 @@ export default function contact() {
             <Input />
           </Form.Item>
 
-
           <div className="contactFromDiv">
-          <Form.Item
-            name={["user", "age"]}
-            label="Age"
-            rules={[
-              {
-                type: "number",
-                min: 0,
-                max: 99,
-              },
-            ]}
-          >
-            <InputNumber />
-          </Form.Item>
-          <Form.Item
-            label="Phone No"
-            style={{marginLeft:'30px',width:'85%'}}
-          >
-            <InputNumber style={{width:'95%'}}/>
-          </Form.Item>
+            <Form.Item
+              name={["user", "age"]}
+              label="Age"
+              rules={[
+                {
+                  type: "number",
+                  min: 0,
+                  max: 99,
+                },
+              ]}
+            >
+              <InputNumber />
+            </Form.Item>
+            <Form.Item
+              label="Phone No"
+              style={{ marginLeft: "30px", width: "85%" }}
+            >
+              <InputNumber style={{ width: "95%" }} />
+            </Form.Item>
           </div>
-          
 
           <Form.Item name={["user", "website"]} label="Website">
             <Input />
@@ -103,12 +101,10 @@ export default function contact() {
               ...layout.wrapperCol,
               offset: 8,
             }}
-          >
-            <Button type="primary" htmlType="submit">
-              Submit
-            </Button>
-          </Form.Item>
-          
+          ></Form.Item>
+          <Button type="primary" htmlType="submit">
+            Submit
+          </Button>
         </Form>
       </div>
       <div>hhhh</div>
