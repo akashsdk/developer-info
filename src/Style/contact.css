@@ -57,4 +57,10 @@
     width: 90%;
     margin-left: 5%;
   }
+  .contactFrom{
+    margin-left: 10%;
+  }
+  .contactFromDiv{
+    margin-left: 0%;
+}
 }

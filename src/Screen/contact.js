@@ -38,6 +38,7 @@ export default function contact() {
           {...layout}
           name="nest-messages"
           onFinish={onFinish}
+          className="contactFrom"
           style={{
             maxWidth: '80%',
           }}
