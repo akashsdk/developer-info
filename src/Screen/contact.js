@@ -1,7 +1,6 @@
 import React,{ useState } from "react";
 import "../Style/contact.css";
 import { Button, Form, Input, InputNumber, Progress } from "antd";
-import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 const layout = {
   labelCol: {
     span: 8,
