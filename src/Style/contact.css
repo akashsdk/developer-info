@@ -42,6 +42,9 @@
     display: flex;
     margin-left: 27%;
 }
+.contactBoxTopDiv{
+    height: 120px;
+}
 @media only screen and (max-width: 1000px) {
   .contactBodyDiv {
     width: 70%;

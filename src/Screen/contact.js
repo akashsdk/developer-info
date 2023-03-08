@@ -33,7 +33,7 @@ export default function contact() {
       <p className="contactPTage">easy to contact</p>
       <div className="contactLine" />
       <div className="contactBodyDiv">
-        <h1>hhhhhh</h1>
+        <div className="contactBoxTopDiv"></div>
         <Form
           {...layout}
           name="nest-messages"
