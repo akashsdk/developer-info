@@ -102,7 +102,8 @@ export default function contact() {
               offset: 8,
             }}
           ></Form.Item>
-          <Button type="primary" htmlType="submit">
+          <Button className="contactButton"
+          type="primary" htmlType="submit">
             Submit
           </Button>
         </Form>

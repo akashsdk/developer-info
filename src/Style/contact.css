@@ -45,7 +45,11 @@
 .contactBoxTopDiv {
   height: 120px;
 }
-
+.contactButton{
+    background-color: rgb(10, 153, 153);
+    margin-top: -20px;
+    margin-left: 28%;
+}
 @media only screen and (max-width: 1000px) {
   .contactBodyDiv {
     width: 70%;
@@ -66,5 +70,8 @@
   }
   .contactBodyDiv {
     height: 750px;
+  }
+  .contactButton{
+    margin-left: 0%;
   }
 }
