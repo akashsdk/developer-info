@@ -19,7 +19,7 @@
     15% 85%,
     0% 85%
   );
-  background-color: #fff;
+  background-color: #d5d4d4;
   height: 600px;
   width: 60%;
   margin-left: 20%;
@@ -45,6 +45,7 @@
 .contactBoxTopDiv {
   height: 120px;
 }
+
 @media only screen and (max-width: 1000px) {
   .contactBodyDiv {
     width: 70%;
