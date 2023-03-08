@@ -1,6 +1,6 @@
-import React,{ useState } from "react";
+import React from "react";
 import "../Style/contact.css";
-import { Button, Form, Input, InputNumber, Progress } from "antd";
+import { Button, Form, Input, InputNumber,  } from "antd";
 const layout = {
   labelCol: {
     span: 8,
