@@ -94,12 +94,7 @@ export default function contact() {
           <Form.Item name={["user", "website"]} label="Other's">
             <Input />
           </Form.Item>
-          <Form.Item name={["user", "introduction"]} label="Message" 
-          rules={[
-            {
-              required: true,
-            },
-          ]}>
+          <Form.Item name={["user", "introduction"]} label="Message">
             <Input.TextArea />
           </Form.Item>
 
