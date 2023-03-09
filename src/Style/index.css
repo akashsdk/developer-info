@@ -141,7 +141,7 @@
 .HomeLayoutLine{
     height: 1px;
     width: 45%;
-    background-color: aqua;
+    background-color: rgb(10, 153, 153);
     margin-left: 25%;
     margin-top: 15px;
 }

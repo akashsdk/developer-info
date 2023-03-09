@@ -7,6 +7,7 @@ export default function home() {
   return (
     <div>
       <Index/>
+      <div style={{height:'60px'}}/>
       <Contact/>
     </div>
   )
