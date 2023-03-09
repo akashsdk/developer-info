@@ -58,6 +58,7 @@
     80% 34%
   );
   background-color: rgb(255, 255, 255);
+  border: 9px solid rgb(136, 135, 135);
 }
 .contactButton {
   background-color: rgb(10, 153, 153);
