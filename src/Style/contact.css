@@ -27,15 +27,17 @@
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .contactPTage {
-  color: aqua;
+  color: rgb(10, 153, 153);
   font-size: 20px;
+  margin-top: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .contactLine {
   height: 1.5px;
-  width: 10%;
-  background-color: #fff;
-  margin-left: 45%;
-  margin-top: -12px;
+  width: 50%;
+  background-color: rgb(136, 135, 135);
+  margin-left: 25%;
+  margin-top: -17px;
   margin-bottom: 20px;
 }
 .contactFromDiv {

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/contact.css";
-import { Button, Form, Input, InputNumber,  } from "antd";
+import { Button, Form, Input, InputNumber } from "antd";
+
 const layout = {
   labelCol: {
     span: 8,
@@ -28,15 +29,12 @@ const onFinish = (values) => {
 };
 
 export default function contact() {
-
-  
-
   return (
     <div className="contactBody">
-      <p className="contactPTage">easy to contact</p>
-      <div className="contactLine" />
       <div className="contactBodyDiv">
         <div className="contactBoxTopDiv">
+          <p className="contactPTage">easy to contact</p>
+          <div className="contactLine" />
         </div>
         <Form
           {...layout}
@@ -106,8 +104,7 @@ export default function contact() {
               offset: 8,
             }}
           ></Form.Item>
-          <Button className="contactButton"
-          type="primary" htmlType="submit">
+          <Button className="contactButton" type="primary" htmlType="submit">
             Submit
           </Button>
         </Form>
