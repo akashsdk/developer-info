@@ -31,7 +31,7 @@ export default function index() {
       <div>
         <Layout className="HomeLayout">
           <div style={{ flex: 1, flexDirection: "row" }}>
-            <h1 style={{ color: "aqua" }}>me.!</h1>
+            <h1 style={{ color: "rgb(10, 153, 153)" }}>me.!</h1>
             <p style={{ color: "#fff" }}>
               A passionate Full Stack Software Developer,
             </p>
