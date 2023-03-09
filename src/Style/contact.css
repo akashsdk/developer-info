@@ -44,6 +44,7 @@
 }
 .contactBoxTopDiv {
   height: 120px;
+  clip-path: polygon(20% 0%, 76% 55%, 100% 20%, 100% 72%, 80% 100%, 23% 46%, 0% 80%, 0 26%);
 }
 .contactButton{
     background-color: rgb(10, 153, 153);
