@@ -9,6 +9,7 @@ export default function home() {
       <Index/>
       <div style={{height:'60px'}}/>
       <Contact/>
+      <div style={{height:'60px'}}/>
     </div>
   )
 }
