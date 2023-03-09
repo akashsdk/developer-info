@@ -41,6 +41,7 @@
 .contactFromDiv {
   display: flex;
   margin-left: 27%;
+  margin-top: 10px;
 }
 .contactBoxTopDiv {
   height: 120px;
