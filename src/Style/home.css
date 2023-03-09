@@ -1,7 +1,8 @@
 .homeDownText{
     width: 60%;
+    margin-left: 20%;
 }
-.spoiler {
+.homeDownH3 {
     color: transparent;
     background-position: right;
     background-size: 100% 100%;
@@ -10,7 +11,7 @@
     background-repeat: no-repeat;
     transition: all 500ms ease-in-out;
   }
-  .spoiler:hover {
-    color: #000;
+  .homeDownH3:hover {
+    color: #f1f1f1;
     background-size: 0% 100%;
   }
