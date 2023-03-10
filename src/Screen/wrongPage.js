@@ -11,10 +11,13 @@ export default function wrongPage() {
       <div >
         <Result
           status="500"
-          title="500"
-          subTitle="Sorry, something went wrong."
-          extra={<Button type="primary">Back Home</Button>}
+          
         />
+        <h3 style={{
+            color:'#fff',
+            marginTop:'-30px'
+        }}>Sorry, something went wrong.</h3>
+        
       </div>
     </div>
   );
