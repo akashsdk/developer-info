@@ -1,11 +1,13 @@
 import React from "react";
 import "../Style/home.css";
+import  Header  from "../Component/header";
 import Index from "./index";
 import Contact from "./contact";
 
 export default function home() {
   return (
     <div>
+      <Header/>
       <Index />
       <div style={{ height: "60px" }} />
       <Contact />
