@@ -17,7 +17,9 @@ export default function wrongPage() {
             color:'#fff',
             marginTop:'-30px'
         }}>Sorry, something went wrong.</h3>
-        
+         <Button className="contactButton" type="primary" htmlType="submit">
+            Submit
+          </Button>
       </div>
     </div>
   );
