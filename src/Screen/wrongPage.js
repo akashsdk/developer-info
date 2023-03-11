@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Result } from "antd";
+import { Link } from "react-router-dom";
 
 export default function wrongPage() {
   return (
@@ -21,7 +22,7 @@ export default function wrongPage() {
          style={{
             background:'rgb(10, 153, 153)',
          }}>
-            Submit
+             <Link  to="/">Go Back</Link>
           </Button>
       </div>
     </div>
