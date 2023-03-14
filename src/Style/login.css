@@ -6,12 +6,13 @@
 .loginBox{
 
     margin-top: 200px;
-    width: 90%;
+   
     margin-left: 20%;
     
 }
 @media only screen and (max-width: 700px) {
     .loginBox{
         margin-left: 2%;
+        width: 90%;
     }
   }
