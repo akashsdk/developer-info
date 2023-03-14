@@ -12,7 +12,7 @@ const onFinishFailed = (errorInfo) => {
 export default function login() {
   return (
     <div className="loginBody">
-      
+      <div>
       <Form
         name="basic"
         labelCol={{
@@ -79,6 +79,7 @@ export default function login() {
           </Button>
         </Form.Item>
       </Form>
+      </div>
     </div>
   );
 }
