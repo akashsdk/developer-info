@@ -10,13 +10,13 @@ const onFinishFailed = (errorInfo) => {
 };
 
 
-const [messageApi] = message.useMessage();
-const success = () => {
-  messageApi.open({
-    type: 'success',
-    content: 'This is a success message',
-  });
-};
+// const [messageApi] = message.useMessage();
+// const success = () => {
+//   messageApi.open({
+//     type: 'success',
+//     content: 'This is a success message',
+//   });
+// };
 
 
 export default function login() {
@@ -84,7 +84,7 @@ export default function login() {
               span: 16,
             }}
           >
-            <Button onClick={success}
+             <Button 
              type="primary" htmlType="submit">
               Submit
             </Button>
