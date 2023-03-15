@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/login.css";
-import { Button, Checkbox, Form, Input } from "antd";
+import { Button, Checkbox, Form, Input, message } from "antd";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -8,6 +8,16 @@ const onFinish = (values) => {
 const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
+
+
+const [messageApi, contextHolder] = message.useMessage();
+const success = () => {
+  messageApi.open({
+    type: 'success',
+    content: 'This is a success message',
+  });
+};
+
 
 export default function login() {
   return (
@@ -74,7 +84,7 @@ export default function login() {
               span: 16,
             }}
           >
-            <Button type="primary" htmlType="submit">
+            <Button  type="primary" htmlType="submit">
               Submit
             </Button>
           </Form.Item>
