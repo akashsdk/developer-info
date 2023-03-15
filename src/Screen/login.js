@@ -10,7 +10,7 @@ const onFinishFailed = (errorInfo) => {
 };
 
 
-const [messageApi, contextHolder] = message.useMessage();
+const [messageApi] = message.useMessage();
 const success = () => {
   messageApi.open({
     type: 'success',
