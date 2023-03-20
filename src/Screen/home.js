@@ -36,7 +36,19 @@ export default function home() {
           and we go our separate ways, <br/>
           I to die, and you to live. <br/>
           Which of these two is better only God knows.” <br/> <br/>― Socrates
-        </h3>ß
+        </h3>
+        <h3 className="homeDownH3">
+          “The hour of departure has arrived,<br/>
+          and we go our separate ways, <br/>
+          I to die, and you to live. <br/>
+          Which of these two is better only God knows.” <br/> <br/>― Socrates
+        </h3>
+        <h3 className="homeDownH3">
+          “The hour of departure has arrived,<br/>
+          and we go our separate ways, <br/>
+          I to die, and you to live. <br/>
+          Which of these two is better only God knows.” <br/> <br/>― Socrates
+        </h3>
       </div>
       <div style={{ height: "30px" }} />
     </div>
