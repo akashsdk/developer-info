@@ -14,3 +14,30 @@
     box-shadow: rgba(251, 251, 251, 0.2) 0px 7px 29px 0px;
     display: flex;
 }
+.headerText {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 65%;
+  }
+  
+  .headerText span {
+    transition: 0.5s ease-out;
+  }
+  .headerText:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .headerText:hover span:nth-child(1):after {
+    content: "'";
+  }
+  .headerText:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .headerText:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
