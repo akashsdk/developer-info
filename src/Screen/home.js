@@ -22,8 +22,11 @@ export default function home() {
         </h3>
       </div>
       <div style={{ height: "50px" }} />
-      <div className="indexH3Div">
-        <h3 className="indexH3">Thank's, for visiting my website. And also best wishes to you...</h3>
+      <div className="homeH3Div">
+        <h3 className="homeH3">Thank's, for visiting my website. And also best wishes to you...</h3>
+      </div>
+      <div className="homeH3Div1">
+        <h3 className="homeH3">Thank's, for visiting my website. And also best wishes to you...</h3>
       </div>
       <div style={{ height: "30px" }} />
     </div>
