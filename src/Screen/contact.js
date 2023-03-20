@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/contact.css";
-import { Button, Form, Input, InputNumber } from "antd";
+import { Button, Form, Input, InputNumber, Modal} from "antd";
 
 const layout = {
   labelCol: {
@@ -27,6 +27,9 @@ const validateMessages = {
 const onFinish = (values) => {
   console.log(values);
 };
+
+
+
 
 export default function contact() {
   return (
@@ -104,7 +107,7 @@ export default function contact() {
               offset: 8,
             }}
           ></Form.Item>
-          <Button className="contactButton" type="primary" htmlType="submit">
+          <Button  className="contactButton" type="primary" htmlType="submit">
             Submit
           </Button>
         </Form>
