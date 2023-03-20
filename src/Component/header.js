@@ -6,7 +6,7 @@ export default function header() {
     <div className="headerBody">
       <div className="headerBox" >
         <h4 className="headerText" >
-          <span>I</span>M<span >POSSIBLE</span>
+          <span>I</span>M<span >AKASH</span>
         </h4>
       </div>
     </div>

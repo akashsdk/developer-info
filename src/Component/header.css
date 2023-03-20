@@ -13,16 +13,17 @@
     border: .1px solid rgb(135, 135, 135);
     box-shadow: rgba(251, 251, 251, 0.2) 0px 7px 29px 0px;
     display: flex;
+
 }
 .headerText {
     color: hsl(0, 0%, 28%);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
     cursor: pointer;
-    margin-top: 0px;
-    margin-left: 65%;
+    margin-top: 10px;
+    flex: 3;
   }
   
   .headerText span {
