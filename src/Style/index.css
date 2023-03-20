@@ -84,7 +84,7 @@
     width: 0;
   }
   to {
-    width: 710px;
+    width: 90%;
   }
 }
 @keyframes blinkTextCursor {
@@ -96,6 +96,7 @@
   }
 }
 .indexH3Div{
+  width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;

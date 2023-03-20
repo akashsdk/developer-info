@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/index.css";
-import { Col, Row, Layout, Button, Radio } from "antd";
+import {Layout, Button } from "antd";
 import img from "../Image/on-desk.png";
 import {
   GithubOutlined,
@@ -15,9 +15,7 @@ export default function index() {
   return (
     <div>
       <h1 className="indexH1">Welcome to Developer Info. & contact Page</h1>
-      <div className="indexH3Div">
-        <h3 className="indexH3">hi! There, i'm Tasnim Shahriar Akash...</h3>
-      </div>
+      
       {/* <div>
         <video autoplay muted loop>
           <source
