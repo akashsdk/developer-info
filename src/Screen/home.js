@@ -33,7 +33,7 @@ export default function home() {
         <h3 className="homeScendH3">For visiting  </h3>
         <h3 className="homeScendH3">my website. </h3>
         <h3 className="homeScendH3">And also best </h3>
-        <h3 className="homeThardH3">wishes to you....</h3>
+        <h3 className="homeThardH3">wishes to you...</h3>
       </div>
       <div style={{ height: "30px" }} />
     </div>
