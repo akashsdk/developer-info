@@ -46,8 +46,23 @@
     }
   }
   .homeH3Div{
-    width: 95%;
+    width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+  }
+  .homeH3Div1{
+    display: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .homeH3Div {
+      display: none;
+    }
+    .homeH3Div1{
+        width: 95%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    }
   }
