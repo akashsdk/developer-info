@@ -94,7 +94,7 @@ export default function contact() {
             </Form.Item>
           </div>
 
-          <Form.Item name={["user", "website"]} label="Other's">
+          <Form.Item name={["user", "website"]} label="Other's Link" placeholder="Basic usage">
             <Input />
           </Form.Item>
           <Form.Item name={["user", "introduction"]} label="Message">
@@ -107,6 +107,11 @@ export default function contact() {
               offset: 8,
             }}
           ></Form.Item>
+          <div>
+          <Button  className="contactButton" type="primary" htmlType="submit">
+            Submit
+          </Button>
+          </div>
           <Button  className="contactButton" type="primary" htmlType="submit">
             Submit
           </Button>
