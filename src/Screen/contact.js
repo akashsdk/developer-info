@@ -108,7 +108,6 @@ export default function contact() {
               Submit
             </Button>
             
-          <div style={{height:'100px'}}></div>
         </Form>
       </div>
     </div>
