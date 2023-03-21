@@ -1,97 +1,98 @@
-.homeDownText{
-    width: 60%;
-    margin-left: 20%;
+.homeDownText {
+  width: 60%;
+  margin-left: 20%;
 }
 .homeDownH3 {
-    color: transparent;
-    background-position: right;
-    background-size: 100% 100%;
-    background-image: linear-gradient(#d5d4d4, #d5d4d4);
-    display: inline;
-    background-repeat: no-repeat;
-    transition: all 500ms ease-in-out;
-  }
-  .homeDownH3:hover {
-    color: #f1f1f1;
-    background-size: 0% 100%;
-  }
+  color: transparent;
+  background-position: right;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#d5d4d4, #d5d4d4);
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+.homeDownH3:hover {
+  color: #f1f1f1;
+  background-size: 0% 100%;
+}
 
-  .homeH3 {
-    position: relative;
-    width: 100%;
-    color: hsl(0, 0%, 68%);
-    font-weight: bold !important;
-    font-family: "Anonymous Pro", monospace !important;
-    letter-spacing: 7px !important;
-    overflow: hidden;
-    border-right: 2px solid hsl(0, 0%, 80%);
-    white-space: nowrap;
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-      blinkTextCursor 500ms infinite;
+.homeH3 {
+  position: relative;
+  width: 100%;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold !important;
+  font-family: "Anonymous Pro", monospace !important;
+  letter-spacing: 7px !important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+.homeScendH3 {
+  position: relative;
+  width: 100%;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold !important;
+  font-family: "Anonymous Pro", monospace !important;
+  letter-spacing: 7px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  margin-top: -5px;
+}
+.homeThardH3 {
+  position: relative;
+  width: 100%;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold !important;
+  font-family: "Anonymous Pro", monospace !important;
+  letter-spacing: 7px !important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  margin-top: -5px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  .homeScendH3 {
-    position: relative;
-    width: 100%;
-    color: hsl(0, 0%, 68%);
-    font-weight: bold !important;
-    font-family: "Anonymous Pro", monospace !important;
-    letter-spacing: 7px !important;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-      blinkTextCursor 500ms infinite;
-      margin-top: -5px;
+  to {
+    width: 90%;
   }
-  .homeThardH3 {
-    position: relative;
-    width: 100%;
-    color: hsl(0, 0%, 68%);
-    font-weight: bold !important;
-    font-family: "Anonymous Pro", monospace !important;
-    letter-spacing: 7px !important;
-    overflow: hidden;
-    border-right: 2px solid hsl(0, 0%, 80%);
-    white-space: nowrap;
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-      blinkTextCursor 500ms infinite;
-      margin-top: -5px;
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
   }
-  
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 90%;
-    }
+  to {
+    border-right-color: transparent;
   }
-  @keyframes blinkTextCursor {
-    from {
-      border-right-color: hsl(0, 0%, 80%);
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-  .homeH3Div{
-    width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .homeH3Div1{
+}
+.homeH3Div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeH3Div1 {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homeH3Div {
     display: none;
   }
-
-  @media only screen and (max-width: 1000px) {
-    .homeH3Div {
-      display: none;
-    }
-    .homeH3Div1{
-        width: 95%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-    }
+  .homeH3Div1 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
   }
+}
