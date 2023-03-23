@@ -1,26 +1,24 @@
-.loginBody{
-    height: auto;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+.loginBody {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
-.loginBox{
+.loginBox {
+  margin-top: 200px;
 
-    margin-top: 200px;
-   
-    margin-left: 25%;
-    
+  margin-left: 25%;
 }
 
 @media only screen and (max-width: 700px) {
-    .loginBox{
-        margin-left: 10%;
-        width: 80%;
-    }
+  .loginBox {
+    margin-left: 10%;
+    width: 80%;
   }
+}
 
-  .loginText{
-    color: rgb(13, 114, 80);
-  }
-  .loginTextP{
-    color: rgb(253, 61, 61);
-  }
+.loginText {
+  color: rgb(13, 114, 80);
+}
+.loginTextP {
+  color: rgb(253, 61, 61);
+}
