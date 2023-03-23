@@ -46,10 +46,13 @@
   background-color: rgb(0, 0, 0);
   margin-right: 10px;
 }
-
+.headerIconLink{
+  background-color: rgb(0, 0, 0);
+}
 .headerIcon{
   color: #fff;
+  font-size: 20px;
 }
 .headerIcon:hover{
-  color: aqua;
+  color: rgb(10, 153, 153);
 }

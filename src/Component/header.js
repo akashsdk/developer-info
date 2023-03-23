@@ -1,7 +1,8 @@
 import React from "react";
 import "./header.css";
 import { ExclamationCircleOutlined } from "@ant-design/icons";
-import { Button, Space, Tooltip } from "antd";
+import { Space, Tooltip } from "antd";
+import { Link } from "react-router-dom";
 
 export default function header() {
   return (
@@ -12,11 +13,9 @@ export default function header() {
         </h4>
         <Space wrap>
           <Tooltip title="for admin!!" className="headerIconDiv">
-            <Button
-              type="dashed"
-              shape="circle"
-              icon={<ExclamationCircleOutlined className="headerIcon" />}
-            />
+            <Link to="/Login" className="headerIconLink">
+              <ExclamationCircleOutlined className="headerIcon" />
+            </Link>
           </Tooltip>
         </Space>
       </div>

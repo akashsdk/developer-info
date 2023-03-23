@@ -1,6 +1,8 @@
 import React from "react";
 import "../Style/login.css";
-import { Button, Checkbox, Form, Input, message } from "antd";
+import { Button, Checkbox, Form, Input, } from "antd";
+import { Link } from "react-router-dom";
+
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -43,12 +45,12 @@ export default function login() {
           autoComplete="off"
         >
           <Form.Item
-            label="Username"
-            name="username"
+            label="User Id"
+            name="UserId"
             rules={[
               {
                 required: true,
-                message: "Please input your username!",
+                message: "Please input your User Id!",
               },
             ]}
           >
@@ -85,9 +87,13 @@ export default function login() {
               span: 16,
             }}
           > 
-             <Button //onClick={success}
+             <Button //onClick={success} 
              type="primary" htmlType="submit">
-              Submit
+              LogIn
+            </Button>
+            <Button style={{marginLeft:'20px',backgroundColor:'rgb(13, 114, 80)'}}
+             type="primary" htmlType="submit">
+              <Link to="/" >Go Back</Link>
             </Button>
           </Form.Item>
         </Form>
