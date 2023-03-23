@@ -22,6 +22,7 @@ const onFinishFailed = (errorInfo) => {
 export default function login() {
   return (
     <div className="loginBody">
+      <h1 className="loginText">Welcome to LogIn Page</h1>
       <div className="loginBox">
         <Form
           name="basic"
@@ -32,7 +33,7 @@ export default function login() {
             span: 16,
           }}
           style={{
-            maxWidth: 600,
+            maxWidth: 500,
           }}
           initialValues={{
             remember: true,
@@ -91,6 +92,7 @@ export default function login() {
           </Form.Item>
         </Form>
       </div>
+      <p>Note</p>
     </div>
   );
 }
