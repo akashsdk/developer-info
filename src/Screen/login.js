@@ -92,7 +92,7 @@ export default function login() {
           </Form.Item>
         </Form>
       </div>
-      <p>Note</p>
+      <p className="loginTextP">Note: This page is only for admin.</p>
     </div>
   );
 }
