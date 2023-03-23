@@ -8,7 +8,9 @@ export default function header() {
         <h4 className="headerText" >
           <span>I</span>M<span >AKASH</span>
         </h4>
+        <div className="headerIconDiv">p</div>
       </div>
+      
     </div>
   );
 }

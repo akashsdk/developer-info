@@ -42,3 +42,10 @@
     color: #fff;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
   }
+
+
+  .headerIconDiv{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+  }
