@@ -45,5 +45,10 @@
 .headerIconDiv {
   height: 50px;
   width: 50px;
-  background-color: rgb(255, 255, 255);
+}
+
+.headerIcon{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
 }

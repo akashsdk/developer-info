@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { ExclamationCircleOutlined } from '@ant-design/icons';
 
 export default function header() {
   return (
@@ -8,7 +9,9 @@ export default function header() {
         <h4 className="headerText" >
           <span>I</span>M<span >AKASH</span>
         </h4>
-        <div className="headerIconDiv">p</div>
+        <div className="headerIconDiv">
+        <ExclamationCircleOutlined className="headerIcon"/>
+        </div>
       </div>
       
     </div>
