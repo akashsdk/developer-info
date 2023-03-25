@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Screen/home"
 import WrongPage from "./Screen/wrongPage";
 import Login from "./Screen/login";
-import adimnHome from "./Admin/adimnHome";
+import AdimnHome from "./Admin/adimnHome";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Route path="*" element={<WrongPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Adimn-Home" element={<AdimnHome />} />
         </Routes>
       </BrowserRouter>
     </div>
