@@ -89,7 +89,7 @@ export default function login() {
           > 
              <Button //onClick={success} 
              type="primary" htmlType="submit">
-              LogIn
+              <Link to="/Admin-dashboard" >LogIn</Link>
             </Button>
             <Button style={{marginLeft:'20px',backgroundColor:'rgb(13, 114, 80)'}}
              type="primary" htmlType="submit">

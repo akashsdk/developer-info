@@ -13,7 +13,7 @@ function App() {
         <Route path="*" element={<WrongPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/Adimn-Home" element={<AdimnHome />} />
+          <Route path="/Admin-dashboard" element={<AdimnHome />} />
         </Routes>
       </BrowserRouter>
     </div>

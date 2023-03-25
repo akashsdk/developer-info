@@ -4,7 +4,12 @@ import "./adimnHome.css";
 export default function adimnHome() {
   return (
     <div className='adminHomeBody'>
-      adimnHomeg
+      <div>
+        <h1>admin dashboard</h1>
+      </div>
+      <div>gg</div>
+      <div>gg</div>
+      <div>gg</div>
     </div>
   )
 }
