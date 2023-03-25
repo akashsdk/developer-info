@@ -10,11 +10,9 @@ export default function adimnHome() {
       <h1 className="adminHomeHtext">
         <span>Ad</span>min<span>Dashboard</span>
       </h1>
-      <div>
       <Link to="/" className="adminHomeLink">
         <LogoutOutlined className="adminHomeIcon"/>
         </Link>
-      </div>
       </div>
       <div className="adminHomeLine" />
       <div>gg</div>
