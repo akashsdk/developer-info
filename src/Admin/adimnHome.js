@@ -15,7 +15,9 @@ export default function adimnHome() {
         </Link>
       </div>
       <div className="adminHomeLine" />
-      <div>gg</div>
+      <div className="adminHomeDiv">
+
+      </div>
       <div>gg</div>
     </div>
   );

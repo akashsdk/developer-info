@@ -53,6 +53,14 @@
   color: rgb(10, 153, 153);
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
+
+.adminHomeDiv {
+  height: 500px;
+  width: 60%;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .adminHomeHtext {
     font-size: 20px;
@@ -65,5 +73,8 @@
     font-size: 20px;
     margin-top: 12.5px;
     margin-left: 20px;
+  }
+  .adminHomeDiv {
+    width: 90%;
   }
 }
