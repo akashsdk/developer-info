@@ -10,6 +10,7 @@ export default function adimnHome() {
       ghgjhjk bfgg
 
       jh hddhd h hdbchjd 
+      <h1>udhduhcudhcudhuchduhcudn dhbvduyb d hu</h1>
     </div>
   )
 }
