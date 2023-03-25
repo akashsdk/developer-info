@@ -3,8 +3,8 @@ import "./adimnHome.css";
 
 export default function adimnHome() {
   return (
-    <div>
-      adimnHome
+    <div className='adminHomeBody'>
+      adimnHomeg
     </div>
   )
 }
