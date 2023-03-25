@@ -3,6 +3,8 @@ import "./adimnHome.css";
 
 export default function adimnHome() {
   return (
-    <div>adimnHome</div>
+    <div>adimnHome dd
+      
+    </div>
   )
 }
