@@ -2,6 +2,7 @@ import React from "react";
 import "./adimnHome.css";
 import { Link } from "react-router-dom";
 import { LogoutOutlined } from "@ant-design/icons";
+import { Pagination } from 'antd';
 
 export default function adimnHome() {
   return (
@@ -18,6 +19,8 @@ export default function adimnHome() {
       <div className="adminHomeDiv">
 
       </div>
+      <div style={{}}/>
+      <Pagination defaultCurrent={1} total={50} />;
       <div>gg</div>
     </div>
   );
