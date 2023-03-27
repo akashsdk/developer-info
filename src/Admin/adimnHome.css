@@ -55,10 +55,11 @@
 }
 
 .adminHomeDiv {
-  height: 500px;
+  height: 550px;
   width: 60%;
-  background-color: aquamarine;
   margin-top: 10px;
+  border-radius: 30px;
+  border: 2px solid aquamarine;
 }
 
 @media only screen and (max-width: 600px) {
