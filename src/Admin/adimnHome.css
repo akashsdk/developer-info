@@ -55,13 +55,38 @@
 }
 
 .adminHomeDiv {
-  height: 550px;
+  height: auto;
   width: 60%;
   margin-top: 10px;
   border-radius: 30px;
   border: 2px solid aquamarine;
 }
-
+.adminHomeColumnDiv{
+    display: flex;
+    margin-left: 10%;
+}
+.adminHomeColumnP{
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgb(10, 153, 153);
+}
+.adminHomeColumnSceP{
+    font-size: 18px;
+    margin-top: 52px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+.adminHomeColumnP1{
+    font-size: 20px;
+    margin-top: 0px;
+    color: rgb(10, 153, 153);
+}
+.adminHomeColumnSceP1{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
 @media only screen and (max-width: 600px) {
   .adminHomeHtext {
     font-size: 20px;
@@ -78,4 +103,7 @@
   .adminHomeDiv {
     width: 90%;
   }
+  .adminHomeColumnDiv{
+    margin-left: 5%;
+}
 }

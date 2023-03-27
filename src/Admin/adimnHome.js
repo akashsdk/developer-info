@@ -17,10 +17,38 @@ export default function adimnHome() {
       </div>
       <div className="adminHomeLine" />
       <div className="adminHomeDiv">
-        <div>hhh</div>
-        <div>hhh</div>
-        <div>hhh</div>
-        <div>hhh</div>
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP">Name: </p>
+        <p className="adminHomeColumnSceP">Akash</p>
+        </div>
+
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP1">Email: </p>
+        <p className="adminHomeColumnSceP1">akash.tasnim@gmail.com</p>
+        </div>
+
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP1">Age: </p>
+        <p className="adminHomeColumnSceP1">20</p>
+        </div>
+
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP1">Phone: </p>
+        <p className="adminHomeColumnSceP1">01580233165</p>
+        </div>
+
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP1">Other's Link: </p>
+        <p className="adminHomeColumnSceP1">https://akash.www.com</p>
+        </div>
+        
+        <div className="adminHomeColumnDiv">
+        <p className="adminHomeColumnP1">Message: </p>
+        <p className="adminHomeColumnSceP1">I there, i am akash.</p>
+        </div>
+
+        <div style={{height:'30px'}}/>
+        
       </div>
       <div style={{height:'20px'}}/>
       <Pagination defaultCurrent={1} total={50} />;
