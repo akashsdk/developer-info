@@ -17,7 +17,10 @@ export default function adimnHome() {
       </div>
       <div className="adminHomeLine" />
       <div className="adminHomeDiv">
-
+        <div>hhh</div>
+        <div>hhh</div>
+        <div>hhh</div>
+        <div>hhh</div>
       </div>
       <div style={{height:'20px'}}/>
       <Pagination defaultCurrent={1} total={50} />;
