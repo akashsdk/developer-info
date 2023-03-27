@@ -16,6 +16,7 @@ export default function adimnHome() {
         </Link>
       </div>
       <div className="adminHomeLine" />
+      
       <div className="adminHomeDiv">
         {/* Name */}
         <div className="adminHomeColumnDiv">
@@ -51,7 +52,8 @@ export default function adimnHome() {
         <div style={{ height: "30px" }} />
       </div>
       <div style={{ height: "20px" }} />
-      <Pagination defaultCurrent={1} total={50} />;<div>gg</div>
+      <Pagination defaultCurrent={1} total={50} />
+      <div>gg</div>
     </div>
   );
 }
