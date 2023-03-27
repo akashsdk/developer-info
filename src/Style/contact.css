@@ -25,7 +25,6 @@
   margin-left: 20%;
   box-shadow: rgba(36, 36, 66, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-   
 }
 .contactPTage {
   color: rgb(10, 153, 153);
@@ -80,6 +79,7 @@
   .contactBodyDiv {
     width: 80%;
     margin-left: 10%;
+    height: 780px;
   }
   .contactFrom {
     margin-left: 10%;
@@ -87,9 +87,7 @@
   .contactFromDiv {
     margin-left: 0%;
   }
-  .contactBodyDiv {
-    height: 780px;
-  }
+
   .contactButton {
     margin-left: 0%;
   }
