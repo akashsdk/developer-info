@@ -19,7 +19,7 @@ export default function adimnHome() {
       <div className="adminHomeDiv">
 
       </div>
-      <div style={{}}/>
+      <div style={{height:'20px'}}/>
       <Pagination defaultCurrent={1} total={50} />;
       <div>gg</div>
     </div>
