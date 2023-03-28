@@ -1,8 +1,7 @@
 import React from "react";
 import "../Style/login.css";
-import { Button, Checkbox, Form, Input, } from "antd";
+import { Button, Checkbox, Form, Input } from "antd";
 import { Link } from "react-router-dom";
-
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -11,7 +10,6 @@ const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
 
-
 // const [messageApi, contextHolder] = message.useMessage();
 // const success = () => {
 //   messageApi.open({
@@ -19,7 +17,6 @@ const onFinishFailed = (errorInfo) => {
 //     content: 'This is a success message',
 //   });
 // };
-
 
 export default function login() {
   return (
@@ -86,14 +83,22 @@ export default function login() {
               offset: 8,
               span: 16,
             }}
-          > 
-             <Button //onClick={success} 
-             type="primary" htmlType="submit">
-              <Link to="/Admin-dashboard" >LogIn</Link>
+          >
+            <Button //onClick={success}
+              type="primary"
+              htmlType="submit"
+            >
+              <Link to="/Admin-dashboard">LogIn</Link>
             </Button>
-            <Button style={{marginLeft:'20px',backgroundColor:'rgb(13, 114, 80)'}}
-             type="primary" htmlType="submit">
-              <Link to="/" >Go Back</Link>
+            <Button
+              style={{
+                marginLeft: "20px",
+                backgroundColor: "rgb(13, 114, 80)",
+              }}
+              type="primary"
+              htmlType="submit"
+            >
+              <Link to="/">Go Back</Link>
             </Button>
           </Form.Item>
         </Form>
