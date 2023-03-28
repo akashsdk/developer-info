@@ -98,7 +98,7 @@ export default function login() {
           </Form.Item>
         </Form>
       </div>
-      <p className="loginTextP">Note: This page is only for admin. ok</p>
+      <p className="loginTextP">Note: This page is only for admin.</p>
     </div>
   );
 }
