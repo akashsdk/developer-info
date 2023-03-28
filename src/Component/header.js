@@ -12,7 +12,7 @@ export default function header() {
           <span>I</span>M<span>AKASH</span>
         </h4>
         <Space wrap>
-          <Tooltip title="Only for admin!!" className="headerIconDiv">
+          <Tooltip title="Only for Admin!!" className="headerIconDiv">
             <Link to="/Login" className="headerIconLink">
               <ExclamationCircleOutlined className="headerIcon" />
             </Link>
