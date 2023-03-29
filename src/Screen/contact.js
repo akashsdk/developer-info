@@ -47,7 +47,7 @@ export default function Contact() {
   const openMessage = async () => {
     if(!Name){
         setTimeout(() => {
-            message.success({ content: 'Name null!', key, duration: 2 });
+            message.error({ content: 'Name null!', key, duration: 2 });
         }, 1000);
 
         return
@@ -75,6 +75,7 @@ export default function Contact() {
             message.success({ content: err.message, key, duration: 2 });
             console.log("Success And Error");
         }, 1000);
+        window.location.reload()
     }
 
 };
