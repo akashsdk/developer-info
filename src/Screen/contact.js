@@ -47,7 +47,7 @@ export default function Contact() {
   const openMessage = async () => {
     if(!Name){
         setTimeout(() => {
-            message.error({ content: 'Name null!', key, duration: 2 });
+            message.error({ content: 'fill up! please', key, duration: 2 });
         }, 1000);
 
         return
@@ -75,7 +75,6 @@ export default function Contact() {
             message.success({ content: err.message, key, duration: 2 });
             console.log("Success And Error");
         }, 1000);
-        window.location.reload()
     }
 
 };
@@ -127,17 +126,17 @@ export default function Contact() {
 
           <div className="contactFromDiv">
             <Form.Item
-              name={["user", "age"]}
+              //name={["user", "age"]}
               label="Age"
-              rules={[
-                {
-                  type: "number",
-                  min: 0,
-                  max: 99,
-                },
-              ]}
+              // rules={[
+              //   {
+              //     type: "number",
+              //      min: 0,
+              //      max: 99,
+              //   },
+              // ]}
             >
-              <InputNumber onChange={e=>{
+              <Input onChange={e=>{
                     setAge(e.target.value)
                 }}/>
             </Form.Item>
@@ -145,7 +144,7 @@ export default function Contact() {
               label="Phone No"
               style={{ marginLeft: "30px", width: "85%" }}
             >
-              <InputNumber style={{ width: "95%" }} onChange={e=>{
+              <Input style={{ width: "95%" }} onChange={e=>{
                     setPhone(e.target.value)
                 }}/>
             </Form.Item>
