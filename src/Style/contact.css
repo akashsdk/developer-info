@@ -75,6 +75,7 @@
   }
 }
 
+
 @media only screen and (max-width: 500px) {
   .contactBodyDiv {
     width: 80%;
@@ -90,5 +91,11 @@
 
   .contactButton {
     margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contactBoxTopDiv {
+    height: 142px;
   }
 }
