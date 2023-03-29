@@ -65,6 +65,15 @@
   display: flex;
   margin-left: 10%;
 }
+.adminHomeCloseIcon{
+  font-size: 30px;
+  margin-top: 20px;
+  flex: 1;
+  color: rgb(10, 153, 153);
+}
+.adminHomeCloseIcon:hover{
+  color: red;
+}
 .adminHomeColumnP {
   font-size: 20px;
   margin-top: 50px;

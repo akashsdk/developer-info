@@ -1,7 +1,7 @@
 import React from "react";
 import "./adimnHome.css";
 import { Link } from "react-router-dom";
-import { LogoutOutlined } from "@ant-design/icons";
+import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
 import { Pagination } from "antd";
 
 export default function adimnHome() {
@@ -19,9 +19,13 @@ export default function adimnHome() {
       
       <div className="adminHomeDiv">
         {/* Name */}
+        <div style={{display:'flex'}}>
         <div className="adminHomeColumnDiv">
           <p className="adminHomeColumnP">Name: </p>
           <p className="adminHomeColumnSceP">Akash</p>
+        </div>
+        <div style={{flex:'5'}}/>
+        <CloseOutlined className="adminHomeCloseIcon"/>
         </div>
         {/* Email */}
         <div className="adminHomeColumnDiv">
