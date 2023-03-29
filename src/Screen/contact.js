@@ -37,12 +37,12 @@ const onFinish = (values) => {
 
 export default function Contact() {
 
-  const [Name,setName]= useState()
-  // const [Email,setEmail]=useState.React();
-  // const [Age,setAge]=useState.React();
-  // const [Phone,setPhone]=useState.React();
-  // const [Website,setWebsite]=useState.React();
-  // const [Message,setMessage]=useState.React();
+  const [Name,setName]= useState();
+  // const [Email,setEmail]=useState();
+  // const [Age,setAge]=useState();
+  // const [Phone,setPhone]=useState();
+  // const [Website,setWebsite]=useState();
+  // const [Message,setMessage]=useState();
 
 //   const openMessage = async () => {
 //     if(!Name){
