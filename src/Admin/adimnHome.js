@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
 import { Pagination } from "antd";
 
+import firebase from '../firebase'
+
 export default function AdimnHome() {
   return (
     <div className="adminHomeBody">
