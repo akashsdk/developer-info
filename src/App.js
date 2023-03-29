@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Screen/home"
 import WrongPage from "./Screen/wrongPage";
 import Login from "./Screen/login";
-import AdimnHome from "./Admin/adimnHome";
+import AdimnHome from "./Admin/AdimnHome";
 
 function App() {
   return (

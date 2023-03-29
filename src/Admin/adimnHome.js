@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
 import { Pagination } from "antd";
 
-export default function adimnHome() {
+export default function AdimnHome() {
   return (
     <div className="adminHomeBody">
       <div className="adminHomeHDiv">
