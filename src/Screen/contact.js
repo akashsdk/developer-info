@@ -2,6 +2,9 @@ import React from "react";
 import "../Style/contact.css";
 import { Button, Form, Input, InputNumber } from "antd";
 
+
+
+
 const layout = {
   labelCol: {
     span: 8,
@@ -30,6 +33,7 @@ const onFinish = (values) => {
 
 
 export default function contact() {
+  
   return (
     <div className="contactBody">
       <div className="contactBodyDiv">
@@ -95,7 +99,7 @@ export default function contact() {
           <Form.Item name={["user", "website"]} label="Other's Link">
             <Input />
           </Form.Item>
-          <Form.Item name={["user", "introduction"]} label="Message">
+          <Form.Item name={["user", "message"]} label="Message">
             <Input.TextArea />
           </Form.Item>
 
