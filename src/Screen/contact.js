@@ -28,6 +28,7 @@ const onFinish = (values) => {
   console.log(values);
 };
 
+
 export default function contact() {
   return (
     <div className="contactBody">
