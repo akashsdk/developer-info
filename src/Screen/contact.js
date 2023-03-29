@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import "../Style/contact.css";
-import { Button, Form, Input, InputNumber } from "antd";
+import { Button, Form, Input, InputNumber, message } from "antd";
 
+import { firestore } from "../firebase";
+import { collection, addDoc } from "firebase/firestore";
 
+const key = 'updatable';
 
 
 const layout = {
@@ -32,7 +35,50 @@ const onFinish = (values) => {
 };
 
 
-export default function contact() {
+export default function Contact() {
+
+  const [Name,setName]= useState()
+  // const [Email,setEmail]=useState.React();
+  // const [Age,setAge]=useState.React();
+  // const [Phone,setPhone]=useState.React();
+  // const [Website,setWebsite]=useState.React();
+  // const [Message,setMessage]=useState.React();
+
+//   const openMessage = async () => {
+//     if(!Name){
+//         setTimeout(() => {
+//             message.success({ content: 'Name null!', key, duration: 2 });
+//         }, 1000);
+
+//         return
+//     }
+//     message.loading({ content: 'Loading...', key });
+//     try {
+//         await addDoc(collection(firestore, "contact"), {
+//             email: Email,
+//             name:Name,
+//             age:Age,
+//             phone:Phone,
+//             website:Website,
+//             message: Message,
+            
+//         });
+//         console.log("Success");
+//         setTimeout(() => {
+//             message.success({ content: 'Loaded!', key, duration: 2 });
+//             console.log("Success And Done");
+//         }, 1000);
+//         window.location.reload()
+//         //window.location.href="wwww.google.com"
+//     } catch (err) {
+//         setTimeout(() => {
+//             message.success({ content: err.message, key, duration: 2 });
+//             console.log("Success And Done");
+//         }, 1000);
+//     }
+
+// };
+
   
   return (
     <div className="contactBody">
@@ -109,7 +155,10 @@ export default function contact() {
               offset: 8,
             }}
           ></Form.Item>
-            <Button className="contactButton" type="primary" htmlType="submit">
+            <Button className="contactButton" type="primary" htmlType="submit"
+            // onClick={openMessage}
+            >
+
               Submit
             </Button>
             

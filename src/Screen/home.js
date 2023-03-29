@@ -3,7 +3,7 @@ import "../Style/home.css";
 import "../Style/index.css";
 import Header from "../Component/header";
 import Index from "./index";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 export default function home() {
   return (
