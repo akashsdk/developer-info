@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./adimnHome.css";
 import { Link } from "react-router-dom";
 import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
 import { Pagination } from "antd";
 
-import firebase from '../firebase'
+import firebase from '../firebase';
 
 export default function AdimnHome() {
   return (
