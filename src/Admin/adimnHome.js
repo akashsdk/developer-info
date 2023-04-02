@@ -1,15 +1,65 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./adimnHome.css";
 import { Link } from "react-router-dom";
 import { LogoutOutlined, CloseOutlined } from "@ant-design/icons";
-import { Pagination } from "antd";
+import { Pagination, message } from "antd";
 
+ import firestore from "../firebase";
+
+import { getFirestore } from "firebase/firestore";
+import {
+  collection,
+  getDocs,
+  deleteField,
+  updateDoc,
+  doc,
+  deleteDoc,
+} from "firebase/firestore";
+
+import Try from "./Try";
 
 export default function AdimnHome() {
 
- 
+//  const db = getFirestore(firestore);
+  const [data2, setData2] = React.useState();
+  const [data3, setData3] = React.useState();
+  const [AllData, setAllData] = React.useState();
+  const [store, setStore] = React.useState();
+  const [load, setLoad] = React.useState();
+  const [index3, setIndex3] = React.useState(0);
 
-  
+  // const newData3 = async () => {
+  //   const querySnapshot = await getDocs(collection(db, "contact"));
+  //   let arr = [];
+  //   querySnapshot.forEach((doc) => {
+  //     arr.push(doc.data());
+  //   });
+  //   setData3(arr);
+  //   console.log(arr);
+  //   setStore(arr);
+  // };
+  // React.useEffect(() => {
+  //   newData3();
+  // }, [load]);
+
+  // const Delete3 = async (docc3) => {
+  //   await deleteDoc(doc(db, "contact", docc3));
+  // };
+
+  // const DeleteContact = () => {
+  //   Delete3(data3[index3].email)
+  //     .then(() => {
+  //       console.log("success");
+  //       message.success("Success");
+  //       window.location.reload();
+  //     })
+  //     .catch((err) => {
+  //       console.log(err.message);
+  //       message.error("Error");
+  //       window.location.reload();
+  //     });
+  // };
+
 
   return (
     <div className="adminHomeBody">
@@ -28,10 +78,10 @@ export default function AdimnHome() {
         <div style={{display:'flex'}}>
         <div className="adminHomeColumnDiv">
           <p className="adminHomeColumnP">Name: </p>
-          <p className="adminHomeColumnSceP">Akash</p>
+          {/* <p className="adminHomeColumnSceP">{data2 && data3[index3].name ? data3[index3].name : ""}</p> */}
         </div>
         <div style={{flex:'5'}}/>
-        <CloseOutlined className="adminHomeCloseIcon"/>
+        {/* <CloseOutlined onClick={DeleteContact} className="adminHomeCloseIcon"/> */}
         </div>
         {/* Email */}
         <div className="adminHomeColumnDiv">
@@ -62,8 +112,17 @@ export default function AdimnHome() {
         <div style={{ height: "30px" }} />
       </div>
       <div style={{ height: "20px" }} />
-      <Pagination defaultCurrent={1} total={50} />
+      {/* <Pagination
+                className="adminPagination"
+                onChange={(index, size) => {
+                  setIndex3(index - 1);
+                }}
+                defaultCurrent={1}
+                total={data3 ? data3.length * 10 : ""}
+              /> */}
+            
       <div>gg</div>
+      <Try/>
     </div>
   );
 }
