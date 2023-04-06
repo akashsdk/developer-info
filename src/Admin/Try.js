@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function Try() {
   return (
-    <div>Try thst
-        <div>Try thst </div> </div>
+    <div>
+        <div>Try thst </div>
+        <div>Try thst </div>
+         </div>
   )
 }
