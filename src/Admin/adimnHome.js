@@ -78,6 +78,7 @@ export default function AdimnHome() {
         <div style={{display:'flex'}}>
         <div className="adminHomeColumnDiv">
           <p className="adminHomeColumnP">Name: </p>
+          <p className="adminHomeColumnSceP"> Akash Tasnim Shahriar</p>
           {/* <p className="adminHomeColumnSceP">{data2 && data3[index3].name ? data3[index3].name : ""}</p> */}
         </div>
         <div style={{flex:'5'}}/>
@@ -112,14 +113,14 @@ export default function AdimnHome() {
         <div style={{ height: "30px" }} />
       </div>
       <div style={{ height: "20px" }} />
-      {/* <Pagination
+      <Pagination
                 className="adminPagination"
                 onChange={(index, size) => {
                   setIndex3(index - 1);
                 }}
                 defaultCurrent={1}
                 total={data3 ? data3.length * 10 : ""}
-              /> */}
+              />
             
       <div>gg</div>
       <Try/>
