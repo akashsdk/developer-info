@@ -65,13 +65,13 @@
   display: flex;
   margin-left: 10%;
 }
-.adminHomeCloseIcon{
+.adminHomeCloseIcon {
   font-size: 30px;
   margin-top: 20px;
   flex: 1;
   color: rgb(10, 153, 153);
 }
-.adminHomeCloseIcon:hover{
+.adminHomeCloseIcon:hover {
   color: red;
 }
 .adminHomeColumnP {
