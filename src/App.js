@@ -4,6 +4,7 @@ import Home from "./Screen/home"
 import WrongPage from "./Screen/wrongPage";
 import Login from "./Screen/login";
 import AdimnHome from "./Admin/AdimnHome";
+import ABpage from "./Admin/ABpage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Admin-dashboard" element={<AdimnHome />} />
+          <Route path="/ABpage" element={<ABpage />} />
         </Routes>
       </BrowserRouter>
     </div>
